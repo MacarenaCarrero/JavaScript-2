@@ -8,3 +8,11 @@ function adult (name, age){
   
 adult('Macarena' , 19 );
 adult('Fulanito', 15)
+
+
+function compared (numberA, numberB){;
+
+console.log (compared);
+}
+
+compared(8, 9);
