@@ -10,9 +10,31 @@ adult('Macarena' , 19 );
 adult('Fulanito', 15)
 
 
-function compared (numberA, numberB){;
-
-console.log (compared);
+function typeOfNumber (number){
+    if( number <0){
+        console.log ('Numero negativo');
+}else if (number === 0){ ;
+console.log ('El numero es cero');
+}else{ ( number >0);
+    console.log ('Es un numero positivo');
+}
 }
 
-compared(8, 9);
+typeOfNumber(5);
+typeOfNumber(-5);
+typeOfNumber (0);
+
+
+function qualification (number){ 
+    if(number <5 ){ ;
+        console.log('Suspenso');
+    }else if( number <8){;
+        console.log ('Aprobado');
+    }else{ ( number =>8);
+        console.log ('Matrícula de honor');
+    }
+    }
+
+    qualification(5);
+    qualification(3);
+    qualification(9);
