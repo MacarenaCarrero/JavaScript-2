@@ -97,3 +97,57 @@ function leapYear(year) {
 
 leapYear(2024);
 leapYear(2023);
+
+function digits(number) {
+  if (number >= 100 || number >= 1000) {
+    console.log("Tiene 3 digitos");
+  } else {
+    console.log("No tiene 3 digitos");
+  }
+}
+
+digits(320);
+digits(20);
+
+function divisible(numberA, numberB) {
+  if (numberB % numberA === 0) {
+    console.log("Si es multiplo");
+  } else {
+    console.log("No es multiplo");
+  }
+}
+
+divisible(20, 100);
+divisible(32, 100);
+
+function double(numberA, numberB) {
+  if (numberA * 2 === numberB) {
+    console.log("El primer numero es doble del segundo");
+  } else if (numberB * 2 === numberA) {
+    console.log("El segundo numero es el doble del primero");
+  } else {
+    console.log("Ninguno es el doble del otro");
+  }
+}
+
+double(20, 10);
+double(10, 20);
+double(2, 6);
+
+function order(a, b, c) {
+  if (a > b && b > c) {
+    console.log(a, b, c);
+  } else if (a > c && c > b) {
+    console.log(numberA, numberC, numberB);
+  } else if (numberB > numberA > numberB) {
+    console.log(numberB, numberA, numberB);
+  } else if (numberB > numberC > numberA) {
+    console.log(numberB, numberC, numberA);
+  } else if (numberC > numberA > numberB) {
+    console.log(numberC, numberA, numberB);
+  } else if (numberC > numberB > numberA) {
+    console.log(numberC, numberB, numberA);
+  }
+}
+
+order(1, 6, 3);
