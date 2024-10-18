@@ -1,25 +1,16 @@
 function adult (name, age){
     if(age >= 18){
-        console.log ('Hola ' + name + ' eres mayor de edad ');
+       return name + "eres mayor de edad. ";
     } else{  
-        console.log ('Hola ' + name + ' eres menor de edad ')
+        return name + "eres menor de edad. ";
     }
     }
-  
-adult('Macarena' , 19 );
-adult('Fulanito', 15)
 
+    const resultAdult = 'Macarena ' + 32;
+console.log(resultAdult);
 
-function higher (numberA, numberB){
-    if(numberA > numberB){
-        console.log ('El '+numberA+ ' es mayor que ' +numberB)
-    }else{ 
-        console.log( 'El ' +numberB+ ' es mayor que ' +numberA)
-    }
-}
+adult(Ana, 23);
 
-higher(2,6)
-higher(5,2)
 
 function typeOfNumber (number){
     if( number <0){
