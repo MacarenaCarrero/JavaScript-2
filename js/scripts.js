@@ -9,7 +9,6 @@ function adult (name, age){
     const resultAdult = 'Macarena ' + 32;
 console.log(resultAdult);
 
-adult(Ana, 23);
 
 
 function typeOfNumber (number){
